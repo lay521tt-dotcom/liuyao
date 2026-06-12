@@ -1,0 +1,11 @@
+{
+  "name": "liuyao",
+  "version": "1.1.0",
+  "private": true,
+  "description": "六爻纳甲排盘 H5（单文件、零后端）",
+  "scripts": {
+    "build:engine": "esbuild packages/hexagram-core/src/index.ts --bundle --format=esm --outfile=packages/hexagram-core/dist/index.mjs",
+    "test:golden": "node tests/run_golden.mjs"
+  },
+  "devDependencies": { "esbuild": "^0.21.0", "jsdom": "^24.0.0" }
+}

@@ -1,0 +1,10022 @@
+{
+ "version": "1.0",
+ "generator": "测试方独立实现",
+ "count": 72,
+ "cases": [
+  {
+   "id": "G001",
+   "desc": "乾卦 动爻:1",
+   "input": {
+    "yaos": [
+     9,
+     7,
+     7,
+     7,
+     7,
+     7
+    ],
+    "datetime": "2025-04-20T15:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "乾",
+     "palace": "乾",
+     "palaceIndex": 0,
+     "shi": 6,
+     "ying": 3,
+     "binary": "111111"
+    },
+    "bianGua": {
+     "name": "姤",
+     "palace": "乾",
+     "palaceIndex": 1,
+     "binary": "011111"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "庚辰",
+     "day": "己未",
+     "hour": "壬申"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "辰",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G002",
+   "desc": "夬卦 动爻:2",
+   "input": {
+    "yaos": [
+     7,
+     9,
+     7,
+     7,
+     7,
+     8
+    ],
+    "datetime": "2025-05-20T09:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "夬",
+     "palace": "坤",
+     "palaceIndex": 5,
+     "shi": 5,
+     "ying": 2,
+     "binary": "111110"
+    },
+    "bianGua": {
+     "name": "革",
+     "palace": "坎",
+     "palaceIndex": 4,
+     "binary": "101110"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "辛巳",
+     "day": "己丑",
+     "hour": "己巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "巳",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "子孙",
+      "liuShen": "朱雀",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G003",
+   "desc": "需卦 动爻:3",
+   "input": {
+    "yaos": [
+     7,
+     7,
+     9,
+     8,
+     7,
+     8
+    ],
+    "datetime": "2025-06-15T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "需",
+     "palace": "坤",
+     "palaceIndex": 6,
+     "shi": 4,
+     "ying": 1,
+     "binary": "111010"
+    },
+    "bianGua": {
+     "name": "节",
+     "palace": "坎",
+     "palaceIndex": 1,
+     "binary": "110010"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "壬午",
+     "day": "乙卯",
+     "hour": "辛巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "青龙",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G004",
+   "desc": "泰卦 动爻:4",
+   "input": {
+    "yaos": [
+     7,
+     7,
+     7,
+     6,
+     8,
+     8
+    ],
+    "datetime": "2025-07-20T14:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "泰",
+     "palace": "坤",
+     "palaceIndex": 3,
+     "shi": 3,
+     "ying": 6,
+     "binary": "111000"
+    },
+    "bianGua": {
+     "name": "大壮",
+     "palace": "坤",
+     "palaceIndex": 4,
+     "binary": "111100"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "癸未",
+     "day": "庚寅",
+     "hour": "癸未"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "未",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "青龙",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G005",
+   "desc": "小畜卦 动爻:5",
+   "input": {
+    "yaos": [
+     7,
+     7,
+     7,
+     8,
+     9,
+     7
+    ],
+    "datetime": "2025-08-20T11:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "小畜",
+     "palace": "巽",
+     "palaceIndex": 1,
+     "shi": 1,
+     "ying": 4,
+     "binary": "111011"
+    },
+    "bianGua": {
+     "name": "大畜",
+     "palace": "艮",
+     "palaceIndex": 2,
+     "binary": "111001"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "甲申",
+     "day": "辛酉",
+     "hour": "甲午"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "申",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": "shi",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "子孙",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G006",
+   "desc": "大有卦 动爻:6",
+   "input": {
+    "yaos": [
+     7,
+     7,
+     7,
+     7,
+     8,
+     9
+    ],
+    "datetime": "2025-09-20T16:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "大有",
+     "palace": "乾",
+     "palaceIndex": 7,
+     "shi": 3,
+     "ying": 6,
+     "binary": "111101"
+    },
+    "bianGua": {
+     "name": "大壮",
+     "palace": "坤",
+     "palaceIndex": 4,
+     "binary": "111100"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "乙酉",
+     "day": "壬辰",
+     "hour": "戊申"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "酉",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "子孙",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "朱雀",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "己",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G007",
+   "desc": "大畜卦 动爻:无",
+   "input": {
+    "yaos": [
+     7,
+     7,
+     7,
+     8,
+     8,
+     7
+    ],
+    "datetime": "2025-10-20T08:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "大畜",
+     "palace": "艮",
+     "palaceIndex": 2,
+     "shi": 2,
+     "ying": 5,
+     "binary": "111001"
+    },
+    "bianGua": null,
+    "siZhu": {
+     "year": "乙巳",
+     "month": "丙戌",
+     "day": "壬戌",
+     "hour": "甲辰"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "戌",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "腾蛇",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G008",
+   "desc": "大壮卦 动爻:1",
+   "input": {
+    "yaos": [
+     9,
+     7,
+     7,
+     7,
+     8,
+     8
+    ],
+    "datetime": "2025-11-20T13:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "大壮",
+     "palace": "坤",
+     "palaceIndex": 4,
+     "shi": 4,
+     "ying": 1,
+     "binary": "111100"
+    },
+    "bianGua": {
+     "name": "恒",
+     "palace": "震",
+     "palaceIndex": 3,
+     "binary": "011100"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "丁亥",
+     "day": "癸巳",
+     "hour": "己未"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "亥",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G009",
+   "desc": "履卦 动爻:2",
+   "input": {
+    "yaos": [
+     7,
+     9,
+     8,
+     7,
+     7,
+     7
+    ],
+    "datetime": "2025-12-20T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "履",
+     "palace": "艮",
+     "palaceIndex": 5,
+     "shi": 5,
+     "ying": 2,
+     "binary": "110111"
+    },
+    "bianGua": {
+     "name": "无妄",
+     "palace": "巽",
+     "palaceIndex": 4,
+     "binary": "100111"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "戊子",
+     "day": "癸亥",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "子",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G010",
+   "desc": "兑卦 动爻:3",
+   "input": {
+    "yaos": [
+     7,
+     7,
+     6,
+     7,
+     7,
+     8
+    ],
+    "datetime": "2026-03-15T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "兑",
+     "palace": "兑",
+     "palaceIndex": 0,
+     "shi": 6,
+     "ying": 3,
+     "binary": "110110"
+    },
+    "bianGua": {
+     "name": "夬",
+     "palace": "坤",
+     "palaceIndex": 5,
+     "binary": "111110"
+    },
+    "siZhu": {
+     "year": "丙午",
+     "month": "辛卯",
+     "day": "戊子",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "卯",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "子孙",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "朱雀",
+      "shiYing": "shi",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G011",
+   "desc": "节卦 动爻:4",
+   "input": {
+    "yaos": [
+     7,
+     7,
+     8,
+     6,
+     7,
+     8
+    ],
+    "datetime": "2026-06-11T10:30+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "节",
+     "palace": "坎",
+     "palaceIndex": 1,
+     "shi": 1,
+     "ying": 4,
+     "binary": "110010"
+    },
+    "bianGua": {
+     "name": "兑",
+     "palace": "兑",
+     "palaceIndex": 0,
+     "binary": "110110"
+    },
+    "siZhu": {
+     "year": "丙午",
+     "month": "甲午",
+     "day": "丙辰",
+     "hour": "癸巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "子孙",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G012",
+   "desc": "临卦 动爻:5",
+   "input": {
+    "yaos": [
+     7,
+     7,
+     8,
+     8,
+     6,
+     8
+    ],
+    "datetime": "2025-03-20T10:30+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "临",
+     "palace": "坤",
+     "palaceIndex": 2,
+     "shi": 2,
+     "ying": 5,
+     "binary": "110000"
+    },
+    "bianGua": {
+     "name": "节",
+     "palace": "坎",
+     "palaceIndex": 1,
+     "binary": "110010"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "己卯",
+     "day": "戊子",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "卯",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "腾蛇",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "青龙",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "子孙",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G013",
+   "desc": "中孚卦 动爻:6",
+   "input": {
+    "yaos": [
+     7,
+     7,
+     8,
+     8,
+     7,
+     9
+    ],
+    "datetime": "2025-04-20T15:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "中孚",
+     "palace": "艮",
+     "palaceIndex": 6,
+     "shi": 4,
+     "ying": 1,
+     "binary": "110011"
+    },
+    "bianGua": {
+     "name": "节",
+     "palace": "坎",
+     "palaceIndex": 1,
+     "binary": "110010"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "庚辰",
+     "day": "己未",
+     "hour": "壬申"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "辰",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "青龙",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G014",
+   "desc": "睽卦 动爻:无",
+   "input": {
+    "yaos": [
+     7,
+     7,
+     8,
+     7,
+     8,
+     7
+    ],
+    "datetime": "2025-05-20T09:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "睽",
+     "palace": "艮",
+     "palaceIndex": 4,
+     "shi": 4,
+     "ying": 1,
+     "binary": "110101"
+    },
+    "bianGua": null,
+    "siZhu": {
+     "year": "乙巳",
+     "month": "辛巳",
+     "day": "己丑",
+     "hour": "己巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "巳",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "子孙",
+      "liuShen": "青龙",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G015",
+   "desc": "损卦 动爻:1",
+   "input": {
+    "yaos": [
+     9,
+     7,
+     8,
+     8,
+     8,
+     7
+    ],
+    "datetime": "2025-06-15T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "损",
+     "palace": "艮",
+     "palaceIndex": 3,
+     "shi": 3,
+     "ying": 6,
+     "binary": "110001"
+    },
+    "bianGua": {
+     "name": "蒙",
+     "palace": "离",
+     "palaceIndex": 4,
+     "binary": "010001"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "壬午",
+     "day": "乙卯",
+     "hour": "辛巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G016",
+   "desc": "归妹卦 动爻:2",
+   "input": {
+    "yaos": [
+     7,
+     9,
+     8,
+     7,
+     8,
+     8
+    ],
+    "datetime": "2025-07-20T14:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "归妹",
+     "palace": "兑",
+     "palaceIndex": 7,
+     "shi": 3,
+     "ying": 6,
+     "binary": "110100"
+    },
+    "bianGua": {
+     "name": "震",
+     "palace": "震",
+     "palaceIndex": 0,
+     "binary": "100100"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "癸未",
+     "day": "庚寅",
+     "hour": "癸未"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "未",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "青龙",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G017",
+   "desc": "讼卦 动爻:3",
+   "input": {
+    "yaos": [
+     8,
+     7,
+     6,
+     7,
+     7,
+     7
+    ],
+    "datetime": "2025-08-20T11:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "讼",
+     "palace": "离",
+     "palaceIndex": 6,
+     "shi": 4,
+     "ying": 1,
+     "binary": "010111"
+    },
+    "bianGua": {
+     "name": "姤",
+     "palace": "乾",
+     "palaceIndex": 1,
+     "binary": "011111"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "甲申",
+     "day": "辛酉",
+     "hour": "甲午"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "申",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "妻财",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G018",
+   "desc": "困卦 动爻:4",
+   "input": {
+    "yaos": [
+     8,
+     7,
+     8,
+     9,
+     7,
+     8
+    ],
+    "datetime": "2025-09-20T16:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "困",
+     "palace": "兑",
+     "palaceIndex": 1,
+     "shi": 1,
+     "ying": 4,
+     "binary": "010110"
+    },
+    "bianGua": {
+     "name": "坎",
+     "palace": "坎",
+     "palaceIndex": 0,
+     "binary": "010010"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "乙酉",
+     "day": "壬辰",
+     "hour": "戊申"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "酉",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "子孙",
+      "liuShen": "勾陈",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G019",
+   "desc": "坎卦 动爻:5",
+   "input": {
+    "yaos": [
+     8,
+     7,
+     8,
+     8,
+     9,
+     8
+    ],
+    "datetime": "2025-10-20T08:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "坎",
+     "palace": "坎",
+     "palaceIndex": 0,
+     "shi": 6,
+     "ying": 3,
+     "binary": "010010"
+    },
+    "bianGua": {
+     "name": "师",
+     "palace": "坎",
+     "palaceIndex": 7,
+     "binary": "010000"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "丙戌",
+     "day": "壬戌",
+     "hour": "甲辰"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "戌",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "子孙",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": "shi",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G020",
+   "desc": "师卦 动爻:6",
+   "input": {
+    "yaos": [
+     8,
+     7,
+     8,
+     8,
+     8,
+     6
+    ],
+    "datetime": "2025-11-20T13:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "师",
+     "palace": "坎",
+     "palaceIndex": 7,
+     "shi": 3,
+     "ying": 6,
+     "binary": "010000"
+    },
+    "bianGua": {
+     "name": "蒙",
+     "palace": "离",
+     "palaceIndex": 4,
+     "binary": "010001"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "丁亥",
+     "day": "癸巳",
+     "hour": "己未"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "亥",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "子孙",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": "shi",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G021",
+   "desc": "涣卦 动爻:无",
+   "input": {
+    "yaos": [
+     8,
+     7,
+     8,
+     8,
+     7,
+     7
+    ],
+    "datetime": "2025-12-20T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "涣",
+     "palace": "离",
+     "palaceIndex": 5,
+     "shi": 5,
+     "ying": 2,
+     "binary": "010011"
+    },
+    "bianGua": null,
+    "siZhu": {
+     "year": "乙巳",
+     "month": "戊子",
+     "day": "癸亥",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "子",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "青龙",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "腾蛇",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G022",
+   "desc": "未济卦 动爻:1",
+   "input": {
+    "yaos": [
+     6,
+     7,
+     8,
+     7,
+     8,
+     7
+    ],
+    "datetime": "2026-03-15T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "未济",
+     "palace": "离",
+     "palaceIndex": 3,
+     "shi": 3,
+     "ying": 6,
+     "binary": "010101"
+    },
+    "bianGua": {
+     "name": "睽",
+     "palace": "艮",
+     "palaceIndex": 4,
+     "binary": "110101"
+    },
+    "siZhu": {
+     "year": "丙午",
+     "month": "辛卯",
+     "day": "戊子",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "卯",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": "shi",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G023",
+   "desc": "蒙卦 动爻:2",
+   "input": {
+    "yaos": [
+     8,
+     9,
+     8,
+     8,
+     8,
+     7
+    ],
+    "datetime": "2026-06-11T10:30+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "蒙",
+     "palace": "离",
+     "palaceIndex": 4,
+     "shi": 4,
+     "ying": 1,
+     "binary": "010001"
+    },
+    "bianGua": {
+     "name": "剥",
+     "palace": "乾",
+     "palaceIndex": 5,
+     "binary": "000001"
+    },
+    "siZhu": {
+     "year": "丙午",
+     "month": "甲午",
+     "day": "丙辰",
+     "hour": "癸巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "父母",
+      "liuShen": "朱雀",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "白虎",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "父母",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G024",
+   "desc": "解卦 动爻:3",
+   "input": {
+    "yaos": [
+     8,
+     7,
+     6,
+     7,
+     8,
+     8
+    ],
+    "datetime": "2025-03-20T10:30+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "解",
+     "palace": "震",
+     "palaceIndex": 2,
+     "shi": 2,
+     "ying": 5,
+     "binary": "010100"
+    },
+    "bianGua": {
+     "name": "恒",
+     "palace": "震",
+     "palaceIndex": 3,
+     "binary": "011100"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "己卯",
+     "day": "戊子",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "卯",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "腾蛇",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "子孙",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "子孙",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G025",
+   "desc": "否卦 动爻:4",
+   "input": {
+    "yaos": [
+     8,
+     8,
+     8,
+     9,
+     7,
+     7
+    ],
+    "datetime": "2025-04-20T15:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "否",
+     "palace": "乾",
+     "palaceIndex": 3,
+     "shi": 3,
+     "ying": 6,
+     "binary": "000111"
+    },
+    "bianGua": {
+     "name": "观",
+     "palace": "乾",
+     "palaceIndex": 4,
+     "binary": "000011"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "庚辰",
+     "day": "己未",
+     "hour": "壬申"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "辰",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G026",
+   "desc": "萃卦 动爻:5",
+   "input": {
+    "yaos": [
+     8,
+     8,
+     8,
+     7,
+     9,
+     8
+    ],
+    "datetime": "2025-05-20T09:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "萃",
+     "palace": "兑",
+     "palaceIndex": 2,
+     "shi": 2,
+     "ying": 5,
+     "binary": "000110"
+    },
+    "bianGua": {
+     "name": "豫",
+     "palace": "震",
+     "palaceIndex": 1,
+     "binary": "000100"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "辛巳",
+     "day": "己丑",
+     "hour": "己巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "巳",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "子孙",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G027",
+   "desc": "比卦 动爻:6",
+   "input": {
+    "yaos": [
+     8,
+     8,
+     8,
+     8,
+     7,
+     6
+    ],
+    "datetime": "2025-06-15T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "比",
+     "palace": "坤",
+     "palaceIndex": 7,
+     "shi": 3,
+     "ying": 6,
+     "binary": "000010"
+    },
+    "bianGua": {
+     "name": "观",
+     "palace": "乾",
+     "palaceIndex": 4,
+     "binary": "000011"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "壬午",
+     "day": "乙卯",
+     "hour": "辛巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": "yang"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G028",
+   "desc": "坤卦 动爻:无",
+   "input": {
+    "yaos": [
+     8,
+     8,
+     8,
+     8,
+     8,
+     8
+    ],
+    "datetime": "2025-07-20T14:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "坤",
+     "palace": "坤",
+     "palaceIndex": 0,
+     "shi": 6,
+     "ying": 3,
+     "binary": "000000"
+    },
+    "bianGua": null,
+    "siZhu": {
+     "year": "乙巳",
+     "month": "癸未",
+     "day": "庚寅",
+     "hour": "癸未"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "未",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G029",
+   "desc": "观卦 动爻:1",
+   "input": {
+    "yaos": [
+     6,
+     8,
+     8,
+     8,
+     7,
+     7
+    ],
+    "datetime": "2025-08-20T11:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "观",
+     "palace": "乾",
+     "palaceIndex": 4,
+     "shi": 4,
+     "ying": 1,
+     "binary": "000011"
+    },
+    "bianGua": {
+     "name": "益",
+     "palace": "巽",
+     "palaceIndex": 3,
+     "binary": "100011"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "甲申",
+     "day": "辛酉",
+     "hour": "甲午"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "申",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "朱雀",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G030",
+   "desc": "晋卦 动爻:2",
+   "input": {
+    "yaos": [
+     8,
+     6,
+     8,
+     7,
+     8,
+     7
+    ],
+    "datetime": "2025-09-20T16:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "晋",
+     "palace": "乾",
+     "palaceIndex": 6,
+     "shi": 4,
+     "ying": 1,
+     "binary": "000101"
+    },
+    "bianGua": {
+     "name": "未济",
+     "palace": "离",
+     "palaceIndex": 3,
+     "binary": "010101"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "乙酉",
+     "day": "壬辰",
+     "hour": "戊申"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "酉",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G031",
+   "desc": "剥卦 动爻:3",
+   "input": {
+    "yaos": [
+     8,
+     8,
+     6,
+     8,
+     8,
+     7
+    ],
+    "datetime": "2025-10-20T08:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "剥",
+     "palace": "乾",
+     "palaceIndex": 5,
+     "shi": 5,
+     "ying": 2,
+     "binary": "000001"
+    },
+    "bianGua": {
+     "name": "艮",
+     "palace": "艮",
+     "palaceIndex": 0,
+     "binary": "001001"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "丙戌",
+     "day": "壬戌",
+     "hour": "甲辰"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "戌",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": "shi",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G032",
+   "desc": "豫卦 动爻:4",
+   "input": {
+    "yaos": [
+     8,
+     8,
+     8,
+     9,
+     8,
+     8
+    ],
+    "datetime": "2025-11-20T13:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "豫",
+     "palace": "震",
+     "palaceIndex": 1,
+     "shi": 1,
+     "ying": 4,
+     "binary": "000100"
+    },
+    "bianGua": {
+     "name": "坤",
+     "palace": "坤",
+     "palaceIndex": 0,
+     "binary": "000000"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "丁亥",
+     "day": "癸巳",
+     "hour": "己未"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "亥",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": "shi",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "子孙",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "子孙",
+      "liuShen": "勾陈",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G033",
+   "desc": "姤卦 动爻:5",
+   "input": {
+    "yaos": [
+     8,
+     7,
+     7,
+     7,
+     9,
+     7
+    ],
+    "datetime": "2025-12-20T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "姤",
+     "palace": "乾",
+     "palaceIndex": 1,
+     "shi": 1,
+     "ying": 4,
+     "binary": "011111"
+    },
+    "bianGua": {
+     "name": "鼎",
+     "palace": "离",
+     "palaceIndex": 2,
+     "binary": "011101"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "戊子",
+     "day": "癸亥",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "子",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": "shi",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "子孙",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "勾陈",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G034",
+   "desc": "大过卦 动爻:6",
+   "input": {
+    "yaos": [
+     8,
+     7,
+     7,
+     7,
+     7,
+     6
+    ],
+    "datetime": "2026-03-15T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "大过",
+     "palace": "震",
+     "palaceIndex": 6,
+     "shi": 4,
+     "ying": 1,
+     "binary": "011110"
+    },
+    "bianGua": {
+     "name": "姤",
+     "palace": "乾",
+     "palaceIndex": 1,
+     "binary": "011111"
+    },
+    "siZhu": {
+     "year": "丙午",
+     "month": "辛卯",
+     "day": "戊子",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "卯",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "勾陈",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G035",
+   "desc": "井卦 动爻:无",
+   "input": {
+    "yaos": [
+     8,
+     7,
+     7,
+     8,
+     7,
+     8
+    ],
+    "datetime": "2026-06-11T10:30+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "井",
+     "palace": "震",
+     "palaceIndex": 5,
+     "shi": 5,
+     "ying": 2,
+     "binary": "011010"
+    },
+    "bianGua": null,
+    "siZhu": {
+     "year": "丙午",
+     "month": "甲午",
+     "day": "丙辰",
+     "hour": "癸巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G036",
+   "desc": "升卦 动爻:1",
+   "input": {
+    "yaos": [
+     6,
+     7,
+     7,
+     8,
+     8,
+     8
+    ],
+    "datetime": "2025-03-20T10:30+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "升",
+     "palace": "震",
+     "palaceIndex": 4,
+     "shi": 4,
+     "ying": 1,
+     "binary": "011000"
+    },
+    "bianGua": {
+     "name": "泰",
+     "palace": "坤",
+     "palaceIndex": 3,
+     "binary": "111000"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "己卯",
+     "day": "戊子",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "卯",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "勾陈",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G037",
+   "desc": "巽卦 动爻:2",
+   "input": {
+    "yaos": [
+     8,
+     9,
+     7,
+     8,
+     7,
+     7
+    ],
+    "datetime": "2025-04-20T15:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "巽",
+     "palace": "巽",
+     "palaceIndex": 0,
+     "shi": 6,
+     "ying": 3,
+     "binary": "011011"
+    },
+    "bianGua": {
+     "name": "渐",
+     "palace": "艮",
+     "palaceIndex": 7,
+     "binary": "001011"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "庚辰",
+     "day": "己未",
+     "hour": "壬申"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "辰",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "子孙",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G038",
+   "desc": "鼎卦 动爻:3",
+   "input": {
+    "yaos": [
+     8,
+     7,
+     9,
+     7,
+     8,
+     7
+    ],
+    "datetime": "2025-05-20T09:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "鼎",
+     "palace": "离",
+     "palaceIndex": 2,
+     "shi": 2,
+     "ying": 5,
+     "binary": "011101"
+    },
+    "bianGua": {
+     "name": "未济",
+     "palace": "离",
+     "palaceIndex": 3,
+     "binary": "010101"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "辛巳",
+     "day": "己丑",
+     "hour": "己巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "巳",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "妻财",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "朱雀",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G039",
+   "desc": "蛊卦 动爻:4",
+   "input": {
+    "yaos": [
+     8,
+     7,
+     7,
+     6,
+     8,
+     7
+    ],
+    "datetime": "2025-06-15T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "蛊",
+     "palace": "巽",
+     "palaceIndex": 7,
+     "shi": 3,
+     "ying": 6,
+     "binary": "011001"
+    },
+    "bianGua": {
+     "name": "鼎",
+     "palace": "离",
+     "palaceIndex": 2,
+     "binary": "011101"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "壬午",
+     "day": "乙卯",
+     "hour": "辛巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G040",
+   "desc": "恒卦 动爻:5",
+   "input": {
+    "yaos": [
+     8,
+     7,
+     7,
+     7,
+     6,
+     8
+    ],
+    "datetime": "2025-07-20T14:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "恒",
+     "palace": "震",
+     "palaceIndex": 3,
+     "shi": 3,
+     "ying": 6,
+     "binary": "011100"
+    },
+    "bianGua": {
+     "name": "大过",
+     "palace": "震",
+     "palaceIndex": 6,
+     "binary": "011110"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "癸未",
+     "day": "庚寅",
+     "hour": "癸未"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "未",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "子孙",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "腾蛇",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G041",
+   "desc": "同人卦 动爻:6",
+   "input": {
+    "yaos": [
+     7,
+     8,
+     7,
+     7,
+     7,
+     9
+    ],
+    "datetime": "2025-08-20T11:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "同人",
+     "palace": "离",
+     "palaceIndex": 7,
+     "shi": 3,
+     "ying": 6,
+     "binary": "101111"
+    },
+    "bianGua": {
+     "name": "革",
+     "palace": "坎",
+     "palaceIndex": 4,
+     "binary": "101110"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "甲申",
+     "day": "辛酉",
+     "hour": "甲午"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "申",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "妻财",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G042",
+   "desc": "革卦 动爻:无",
+   "input": {
+    "yaos": [
+     7,
+     8,
+     7,
+     7,
+     7,
+     8
+    ],
+    "datetime": "2025-09-20T16:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "革",
+     "palace": "坎",
+     "palaceIndex": 4,
+     "shi": 4,
+     "ying": 1,
+     "binary": "101110"
+    },
+    "bianGua": null,
+    "siZhu": {
+     "year": "乙巳",
+     "month": "乙酉",
+     "day": "壬辰",
+     "hour": "戊申"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "酉",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "子孙",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G043",
+   "desc": "既济卦 动爻:1",
+   "input": {
+    "yaos": [
+     9,
+     8,
+     7,
+     8,
+     7,
+     8
+    ],
+    "datetime": "2025-10-20T08:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "既济",
+     "palace": "坎",
+     "palaceIndex": 3,
+     "shi": 3,
+     "ying": 6,
+     "binary": "101010"
+    },
+    "bianGua": {
+     "name": "蹇",
+     "palace": "兑",
+     "palaceIndex": 4,
+     "binary": "001010"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "丙戌",
+     "day": "壬戌",
+     "hour": "甲辰"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "戌",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "己",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "子孙",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G044",
+   "desc": "明夷卦 动爻:2",
+   "input": {
+    "yaos": [
+     7,
+     6,
+     7,
+     8,
+     8,
+     8
+    ],
+    "datetime": "2025-11-20T13:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "明夷",
+     "palace": "坎",
+     "palaceIndex": 6,
+     "shi": 4,
+     "ying": 1,
+     "binary": "101000"
+    },
+    "bianGua": {
+     "name": "泰",
+     "palace": "坤",
+     "palaceIndex": 3,
+     "binary": "111000"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "丁亥",
+     "day": "癸巳",
+     "hour": "己未"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "亥",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "子孙",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "己",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G045",
+   "desc": "家人卦 动爻:3",
+   "input": {
+    "yaos": [
+     7,
+     8,
+     9,
+     8,
+     7,
+     7
+    ],
+    "datetime": "2025-12-20T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "家人",
+     "palace": "巽",
+     "palaceIndex": 2,
+     "shi": 2,
+     "ying": 5,
+     "binary": "101011"
+    },
+    "bianGua": {
+     "name": "益",
+     "palace": "巽",
+     "palaceIndex": 3,
+     "binary": "100011"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "戊子",
+     "day": "癸亥",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "子",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "青龙",
+      "shiYing": "shi",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "己",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G046",
+   "desc": "离卦 动爻:4",
+   "input": {
+    "yaos": [
+     7,
+     8,
+     7,
+     9,
+     8,
+     7
+    ],
+    "datetime": "2026-03-15T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "离",
+     "palace": "离",
+     "palaceIndex": 0,
+     "shi": 6,
+     "ying": 3,
+     "binary": "101101"
+    },
+    "bianGua": {
+     "name": "贲",
+     "palace": "艮",
+     "palaceIndex": 1,
+     "binary": "101001"
+    },
+    "siZhu": {
+     "year": "丙午",
+     "month": "辛卯",
+     "day": "戊子",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "卯",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "己",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G047",
+   "desc": "贲卦 动爻:5",
+   "input": {
+    "yaos": [
+     7,
+     8,
+     7,
+     8,
+     6,
+     7
+    ],
+    "datetime": "2026-06-11T10:30+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "贲",
+     "palace": "艮",
+     "palaceIndex": 1,
+     "shi": 1,
+     "ying": 4,
+     "binary": "101001"
+    },
+    "bianGua": {
+     "name": "家人",
+     "palace": "巽",
+     "palaceIndex": 2,
+     "binary": "101011"
+    },
+    "siZhu": {
+     "year": "丙午",
+     "month": "甲午",
+     "day": "丙辰",
+     "hour": "癸巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "朱雀",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G048",
+   "desc": "丰卦 动爻:6",
+   "input": {
+    "yaos": [
+     7,
+     8,
+     7,
+     7,
+     8,
+     6
+    ],
+    "datetime": "2025-03-20T10:30+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "丰",
+     "palace": "坎",
+     "palaceIndex": 5,
+     "shi": 5,
+     "ying": 2,
+     "binary": "101100"
+    },
+    "bianGua": {
+     "name": "离",
+     "palace": "离",
+     "palaceIndex": 0,
+     "binary": "101101"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "己卯",
+     "day": "戊子",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "卯",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "子孙",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "腾蛇",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "父母",
+      "liuShen": "青龙",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G049",
+   "desc": "遁卦 动爻:无",
+   "input": {
+    "yaos": [
+     8,
+     8,
+     7,
+     7,
+     7,
+     7
+    ],
+    "datetime": "2025-04-20T15:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "遁",
+     "palace": "乾",
+     "palaceIndex": 2,
+     "shi": 2,
+     "ying": 5,
+     "binary": "001111"
+    },
+    "bianGua": null,
+    "siZhu": {
+     "year": "乙巳",
+     "month": "庚辰",
+     "day": "己未",
+     "hour": "壬申"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "辰",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G050",
+   "desc": "咸卦 动爻:1",
+   "input": {
+    "yaos": [
+     6,
+     8,
+     7,
+     7,
+     7,
+     8
+    ],
+    "datetime": "2025-05-20T09:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "咸",
+     "palace": "兑",
+     "palaceIndex": 3,
+     "shi": 3,
+     "ying": 6,
+     "binary": "001110"
+    },
+    "bianGua": {
+     "name": "革",
+     "palace": "坎",
+     "palaceIndex": 4,
+     "binary": "101110"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "辛巳",
+     "day": "己丑",
+     "hour": "己巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "巳",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "子孙",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G051",
+   "desc": "蹇卦 动爻:2",
+   "input": {
+    "yaos": [
+     8,
+     6,
+     7,
+     8,
+     7,
+     8
+    ],
+    "datetime": "2025-06-15T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "蹇",
+     "palace": "兑",
+     "palaceIndex": 4,
+     "shi": 4,
+     "ying": 1,
+     "binary": "001010"
+    },
+    "bianGua": {
+     "name": "井",
+     "palace": "震",
+     "palaceIndex": 5,
+     "binary": "011010"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "壬午",
+     "day": "乙卯",
+     "hour": "辛巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "青龙",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "腾蛇",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "子孙",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G052",
+   "desc": "谦卦 动爻:3",
+   "input": {
+    "yaos": [
+     8,
+     8,
+     9,
+     8,
+     8,
+     8
+    ],
+    "datetime": "2025-07-20T14:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "谦",
+     "palace": "兑",
+     "palaceIndex": 5,
+     "shi": 5,
+     "ying": 2,
+     "binary": "001000"
+    },
+    "bianGua": {
+     "name": "坤",
+     "palace": "坤",
+     "palaceIndex": 0,
+     "binary": "000000"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "癸未",
+     "day": "庚寅",
+     "hour": "癸未"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "未",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "子孙",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G053",
+   "desc": "渐卦 动爻:4",
+   "input": {
+    "yaos": [
+     8,
+     8,
+     7,
+     6,
+     7,
+     7
+    ],
+    "datetime": "2025-08-20T11:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "渐",
+     "palace": "艮",
+     "palaceIndex": 7,
+     "shi": 3,
+     "ying": 6,
+     "binary": "001011"
+    },
+    "bianGua": {
+     "name": "遁",
+     "palace": "乾",
+     "palaceIndex": 2,
+     "binary": "001111"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "甲申",
+     "day": "辛酉",
+     "hour": "甲午"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "申",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "子孙",
+      "liuShen": "青龙",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "腾蛇",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G054",
+   "desc": "旅卦 动爻:5",
+   "input": {
+    "yaos": [
+     8,
+     8,
+     7,
+     7,
+     6,
+     7
+    ],
+    "datetime": "2025-09-20T16:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "旅",
+     "palace": "离",
+     "palaceIndex": 1,
+     "shi": 1,
+     "ying": 4,
+     "binary": "001101"
+    },
+    "bianGua": {
+     "name": "遁",
+     "palace": "乾",
+     "palaceIndex": 2,
+     "binary": "001111"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "乙酉",
+     "day": "壬辰",
+     "hour": "戊申"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "酉",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "玄武",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "妻财",
+      "liuShen": "勾陈",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "己",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G055",
+   "desc": "艮卦 动爻:6",
+   "input": {
+    "yaos": [
+     8,
+     8,
+     7,
+     8,
+     8,
+     9
+    ],
+    "datetime": "2025-10-20T08:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "艮",
+     "palace": "艮",
+     "palaceIndex": 0,
+     "shi": 6,
+     "ying": 3,
+     "binary": "001001"
+    },
+    "bianGua": {
+     "name": "谦",
+     "palace": "兑",
+     "palaceIndex": 5,
+     "binary": "001000"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "丙戌",
+     "day": "壬戌",
+     "hour": "甲辰"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "戌",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "子孙",
+      "liuShen": "朱雀",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G056",
+   "desc": "小过卦 动爻:无",
+   "input": {
+    "yaos": [
+     8,
+     8,
+     7,
+     7,
+     8,
+     8
+    ],
+    "datetime": "2025-11-20T13:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "小过",
+     "palace": "兑",
+     "palaceIndex": 6,
+     "shi": 4,
+     "ying": 1,
+     "binary": "001100"
+    },
+    "bianGua": null,
+    "siZhu": {
+     "year": "乙巳",
+     "month": "丁亥",
+     "day": "癸巳",
+     "hour": "己未"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "亥",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G057",
+   "desc": "无妄卦 动爻:1",
+   "input": {
+    "yaos": [
+     9,
+     8,
+     8,
+     7,
+     7,
+     7
+    ],
+    "datetime": "2025-12-20T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "无妄",
+     "palace": "巽",
+     "palaceIndex": 4,
+     "shi": 4,
+     "ying": 1,
+     "binary": "100111"
+    },
+    "bianGua": {
+     "name": "否",
+     "palace": "乾",
+     "palaceIndex": 3,
+     "binary": "000111"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "戊子",
+     "day": "癸亥",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "子",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "子孙",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G058",
+   "desc": "随卦 动爻:2",
+   "input": {
+    "yaos": [
+     7,
+     6,
+     8,
+     7,
+     7,
+     8
+    ],
+    "datetime": "2026-03-15T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "随",
+     "palace": "震",
+     "palaceIndex": 7,
+     "shi": 3,
+     "ying": 6,
+     "binary": "100110"
+    },
+    "bianGua": {
+     "name": "兑",
+     "palace": "兑",
+     "palaceIndex": 0,
+     "binary": "110110"
+    },
+    "siZhu": {
+     "year": "丙午",
+     "month": "辛卯",
+     "day": "戊子",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "卯",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "白虎",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丁",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G059",
+   "desc": "屯卦 动爻:3",
+   "input": {
+    "yaos": [
+     7,
+     8,
+     6,
+     8,
+     7,
+     8
+    ],
+    "datetime": "2026-06-11T10:30+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "屯",
+     "palace": "坎",
+     "palaceIndex": 2,
+     "shi": 2,
+     "ying": 5,
+     "binary": "100010"
+    },
+    "bianGua": {
+     "name": "既济",
+     "palace": "坎",
+     "palaceIndex": 3,
+     "binary": "101010"
+    },
+    "siZhu": {
+     "year": "丙午",
+     "month": "甲午",
+     "day": "丙辰",
+     "hour": "癸巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "子孙",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G060",
+   "desc": "复卦 动爻:4",
+   "input": {
+    "yaos": [
+     7,
+     8,
+     8,
+     6,
+     8,
+     8
+    ],
+    "datetime": "2025-03-20T10:30+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "复",
+     "palace": "坤",
+     "palaceIndex": 1,
+     "shi": 1,
+     "ying": 4,
+     "binary": "100000"
+    },
+    "bianGua": {
+     "name": "震",
+     "palace": "震",
+     "palaceIndex": 0,
+     "binary": "100100"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "己卯",
+     "day": "戊子",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "卯",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "子孙",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G061",
+   "desc": "益卦 动爻:5",
+   "input": {
+    "yaos": [
+     7,
+     8,
+     8,
+     8,
+     9,
+     7
+    ],
+    "datetime": "2025-04-20T15:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "益",
+     "palace": "巽",
+     "palaceIndex": 3,
+     "shi": 3,
+     "ying": 6,
+     "binary": "100011"
+    },
+    "bianGua": {
+     "name": "颐",
+     "palace": "巽",
+     "palaceIndex": 6,
+     "binary": "100001"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "庚辰",
+     "day": "己未",
+     "hour": "壬申"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "辰",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "子孙",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G062",
+   "desc": "噬嗑卦 动爻:6",
+   "input": {
+    "yaos": [
+     7,
+     8,
+     8,
+     7,
+     8,
+     9
+    ],
+    "datetime": "2025-05-20T09:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "噬嗑",
+     "palace": "巽",
+     "palaceIndex": 5,
+     "shi": 5,
+     "ying": 2,
+     "binary": "100101"
+    },
+    "bianGua": {
+     "name": "震",
+     "palace": "震",
+     "palaceIndex": 0,
+     "binary": "100100"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "辛巳",
+     "day": "己丑",
+     "hour": "己巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "巳",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": "shi",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "己",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "子孙",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G063",
+   "desc": "颐卦 动爻:无",
+   "input": {
+    "yaos": [
+     7,
+     8,
+     8,
+     8,
+     8,
+     7
+    ],
+    "datetime": "2025-06-15T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "颐",
+     "palace": "巽",
+     "palaceIndex": 6,
+     "shi": 4,
+     "ying": 1,
+     "binary": "100001"
+    },
+    "bianGua": null,
+    "siZhu": {
+     "year": "乙巳",
+     "month": "壬午",
+     "day": "乙卯",
+     "hour": "辛巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "青龙",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "腾蛇",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "丙",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "G064",
+   "desc": "震卦 动爻:1",
+   "input": {
+    "yaos": [
+     9,
+     8,
+     8,
+     7,
+     8,
+     8
+    ],
+    "datetime": "2025-07-20T14:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "震",
+     "palace": "震",
+     "palaceIndex": 0,
+     "shi": 6,
+     "ying": 3,
+     "binary": "100100"
+    },
+    "bianGua": {
+     "name": "豫",
+     "palace": "震",
+     "palaceIndex": 1,
+     "binary": "000100"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "癸未",
+     "day": "庚寅",
+     "hour": "癸未"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "未",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "青龙",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "子孙",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "腾蛇",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "S065",
+   "desc": "S065 乾六爻全动变坤",
+   "input": {
+    "yaos": [
+     9,
+     9,
+     9,
+     9,
+     9,
+     9
+    ],
+    "datetime": "2025-06-15T10:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "乾",
+     "palace": "乾",
+     "palaceIndex": 0,
+     "shi": 6,
+     "ying": 3,
+     "binary": "111111"
+    },
+    "bianGua": {
+     "name": "坤",
+     "palace": "坤",
+     "palaceIndex": 0,
+     "binary": "000000"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "壬午",
+     "day": "乙卯",
+     "hour": "辛巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "子孙",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "壬",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     }
+    ]
+   }
+  },
+  {
+   "id": "S066",
+   "desc": "S066 坤六爻全动变乾",
+   "input": {
+    "yaos": [
+     6,
+     6,
+     6,
+     6,
+     6,
+     6
+    ],
+    "datetime": "2025-07-20T14:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "坤",
+     "palace": "坤",
+     "palaceIndex": 0,
+     "shi": 6,
+     "ying": 3,
+     "binary": "000000"
+    },
+    "bianGua": {
+     "name": "乾",
+     "palace": "乾",
+     "palaceIndex": 0,
+     "binary": "111111"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "癸未",
+     "day": "庚寅",
+     "hour": "癸未"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "未",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "青龙",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "妻财",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": true,
+      "naJia": {
+       "gan": "癸",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yang"
+     }
+    ]
+   }
+  },
+  {
+   "id": "S067",
+   "desc": "S067 既济三爻动",
+   "input": {
+    "yaos": [
+     9,
+     8,
+     9,
+     8,
+     9,
+     8
+    ],
+    "datetime": "2025-08-20T11:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "既济",
+     "palace": "坎",
+     "palaceIndex": 3,
+     "shi": 3,
+     "ying": 6,
+     "binary": "101010"
+    },
+    "bianGua": {
+     "name": "坤",
+     "palace": "坤",
+     "palaceIndex": 0,
+     "binary": "000000"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "甲申",
+     "day": "辛酉",
+     "hour": "甲午"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "申",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "己",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "子孙",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "己",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "青龙",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "父母",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "腾蛇",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "S068",
+   "desc": "S068 23点前(22:59)日柱",
+   "input": {
+    "yaos": [
+     7,
+     8,
+     7,
+     8,
+     7,
+     8
+    ],
+    "datetime": "2025-06-15T22:59+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "既济",
+     "palace": "坎",
+     "palaceIndex": 3,
+     "shi": 3,
+     "ying": 6,
+     "binary": "101010"
+    },
+    "bianGua": null,
+    "siZhu": {
+     "year": "乙巳",
+     "month": "壬午",
+     "day": "乙卯",
+     "hour": "丁亥"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "子孙",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "勾陈",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "父母",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "S069",
+   "desc": "S069 23点后(23:01)换日",
+   "input": {
+    "yaos": [
+     7,
+     8,
+     7,
+     8,
+     7,
+     8
+    ],
+    "datetime": "2025-06-15T23:01+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "既济",
+     "palace": "坎",
+     "palaceIndex": 3,
+     "shi": 3,
+     "ying": 6,
+     "binary": "101010"
+    },
+    "bianGua": null,
+    "siZhu": {
+     "year": "乙巳",
+     "month": "壬午",
+     "day": "丙辰",
+     "hour": "戊子"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "子孙",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "腾蛇",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "父母",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "戊",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "青龙",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": true,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "S070",
+   "desc": "S070 游魂卦晋无动爻",
+   "input": {
+    "yaos": [
+     8,
+     8,
+     8,
+     7,
+     8,
+     7
+    ],
+    "datetime": "2025-03-20T10:30+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "晋",
+     "palace": "乾",
+     "palaceIndex": 6,
+     "shi": 4,
+     "ying": 1,
+     "binary": "000101"
+    },
+    "bianGua": null,
+    "siZhu": {
+     "year": "乙巳",
+     "month": "己卯",
+     "day": "戊子",
+     "hour": "丁巳"
+    },
+    "xunKong": [
+     "午",
+     "未"
+    ],
+    "yueJian": "卯",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": "ying",
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "乙",
+       "zhi": "卯",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "玄武",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": true,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "S071",
+   "desc": "S071 归魂卦大有上爻动",
+   "input": {
+    "yaos": [
+     7,
+     7,
+     7,
+     7,
+     8,
+     9
+    ],
+    "datetime": "2025-04-20T15:00+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "大有",
+     "palace": "乾",
+     "palaceIndex": 7,
+     "shi": 3,
+     "ying": 6,
+     "binary": "111101"
+    },
+    "bianGua": {
+     "name": "大壮",
+     "palace": "坤",
+     "palaceIndex": 4,
+     "binary": "111100"
+    },
+    "siZhu": {
+     "year": "乙巳",
+     "month": "庚辰",
+     "day": "己未",
+     "hour": "壬申"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "辰",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "子",
+       "wuXing": "水"
+      },
+      "liuQin": "子孙",
+      "liuShen": "腾蛇",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "寅",
+       "wuXing": "木"
+      },
+      "liuQin": "妻财",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "甲",
+       "zhi": "辰",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "玄武",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "兄弟",
+      "liuShen": "青龙",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "己",
+       "zhi": "未",
+       "wuXing": "土"
+      },
+      "liuQin": "父母",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yang",
+      "isMoving": true,
+      "naJia": {
+       "gan": "己",
+       "zhi": "巳",
+       "wuXing": "火"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "勾陈",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": "yin"
+     }
+    ]
+   }
+  },
+  {
+   "id": "S072",
+   "desc": "S072 当代日期回归例",
+   "input": {
+    "yaos": [
+     8,
+     7,
+     7,
+     7,
+     8,
+     8
+    ],
+    "datetime": "2026-06-11T10:30+08:00"
+   },
+   "expected": {
+    "benGua": {
+     "name": "恒",
+     "palace": "震",
+     "palaceIndex": 3,
+     "shi": 3,
+     "ying": 6,
+     "binary": "011100"
+    },
+    "bianGua": null,
+    "siZhu": {
+     "year": "丙午",
+     "month": "甲午",
+     "day": "丙辰",
+     "hour": "癸巳"
+    },
+    "xunKong": [
+     "子",
+     "丑"
+    ],
+    "yueJian": "午",
+    "lines": [
+     {
+      "pos": 1,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "丑",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "朱雀",
+      "shiYing": null,
+      "isXunKong": true,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 2,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "亥",
+       "wuXing": "水"
+      },
+      "liuQin": "父母",
+      "liuShen": "勾陈",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 3,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "辛",
+       "zhi": "酉",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "腾蛇",
+      "shiYing": "shi",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 4,
+      "yinYang": "yang",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "午",
+       "wuXing": "火"
+      },
+      "liuQin": "子孙",
+      "liuShen": "白虎",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 5,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "申",
+       "wuXing": "金"
+      },
+      "liuQin": "官鬼",
+      "liuShen": "玄武",
+      "shiYing": null,
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     },
+     {
+      "pos": 6,
+      "yinYang": "yin",
+      "isMoving": false,
+      "naJia": {
+       "gan": "庚",
+       "zhi": "戌",
+       "wuXing": "土"
+      },
+      "liuQin": "妻财",
+      "liuShen": "青龙",
+      "shiYing": "ying",
+      "isXunKong": false,
+      "isYueBreak": false,
+      "changedYinYang": null
+     }
+    ]
+   }
+  }
+ ]
+}
