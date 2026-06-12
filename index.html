@@ -335,11 +335,11 @@ function renderPan(){const r=current.result,b=r.benGua,v=r.bianGua;
    l.isXunKong?'<span class="kong"> 空':''}${l.isYueBreak?'<span class="kong"> 破':''}</td><td>${bars(l)}</td><td class="sy">${
    l.shiYing==='shi'?'世':l.shiYing==='ying'?'应':''}</td></tr>`;}
  let acc=guaCiBlock(`本卦 · ${b.name}`,benH.guaCi,benH.guaAnn);
- if(benH.guaModern)acc+=`<div class="acc"><button>现代解读 · ${b.name}</button><div class="bd"><div class="ann">${benH.guaModern}</div></div></div>`;
+ if(benH.guaModern)acc+=`<div class="acc open"><button>现代解读 · ${b.name}</button><div class="bd"><div class="ann">${benH.guaModern}</div></div></div>`;
  r.lines.filter(l=>l.isMoving).forEach(l=>{const yt=SNAP.yaoText[`${benH.id}-${l.pos}`];
   acc+=guaCiBlock(`动爻 · ${YAONAMES[l.pos-1]}${l.yinYang==='yang'?'九':'六'}`,yt&&yt.ci,yt&&yt.ann);});
  if(v){acc+=guaCiBlock(`变卦 · ${v.name}`,bianH.guaCi,bianH.guaAnn);
-  if(bianH.guaModern)acc+=`<div class="acc"><button>现代解读 · ${v.name}</button><div class="bd"><div class="ann">${bianH.guaModern}</div></div></div>`;}
+  if(bianH.guaModern)acc+=`<div class="acc open"><button>现代解读 · ${v.name}</button><div class="bd"><div class="ann">${bianH.guaModern}</div></div></div>`;}
  $('#panBox').innerHTML=`<div class="ghead">
   <div class="gnames serif">${b.name}卦${v?`<span class="ar">→</span>${v.name}卦`:''}</div>
   <div class="gmeta">${b.palace}宫 · ${palIdx[b.palaceIndex]} · 世${YAONAMES[b.shi-1]}爻 应${YAONAMES[b.ying-1]}爻<br>
